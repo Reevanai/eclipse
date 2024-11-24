@@ -1,0 +1,112 @@
+/* styles.css */
+
+body {
+    background-color: #121212; /* Dark background */
+    color: #e0e0e0; /* Light text color */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #1e1e1e; /* Darker navbar */
+    padding: 15px;
+}
+
+.logo {
+    color: #ffcc00; /* Bright logo color */
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+}
+
+.nav-links li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.nav-links a {
+    color: #ffcc00; /* Bright link color */
+    text-decoration: none;
+}
+
+.nav-links a:hover {
+    color: #ff6600; /* Hover effect */
+}
+
+.banner {
+    position: relative;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.banner__image {
+    width: 100%;
+    opacity: 0.7; /* Slightly transparent image */
+}
+
+.hero {
+    padding: 50px 20px;
+    background-color: rgba(0, 0, 0, 0.7); /* Dark overlay */
+}
+
+.hero-container {
+    max-width: 800px;
+    margin: auto;
+}
+
+.hero h1 {
+    color: #ffcc00; /* Bright heading */
+}
+
+.btn {
+    background-color: #ff6600; /* Button color */
+    color: #ffffff; /* Button text color */
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #ffcc00; /* Button hover */
+}
+
+.store {
+    background-color: #1e1e1e;
+    padding: 20px;
+    text-align: center;
+}
+
+.minecraft-info {
+    background-color: #222222;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+.contact {
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+.contact-list {
+    margin: 10px 0;
+}
+
+.contact-list h5 {
+    color: #ffcc00; /* Bright heading for contact */
+}
+
+.footer {
+    background-color: #1e1e1e;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.footer p {
+    color: #e0e0e0; /* Light footer text */
+}
